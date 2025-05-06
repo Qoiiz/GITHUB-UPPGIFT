@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vår Tjänst – Landningssida</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+ 
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Vår Tjänst</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#om-oss">Om oss</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tjanster">Tjänster</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="d-flex justify-content-center align-items-center bg-primary text-white text-center" style="height: 100vh;">
+    <div>
+      <h1 class="display-4">Vi förenklar din vardag</h1>
+      <p class="lead">Smarta lösningar för privatpersoner och företag</p>
+      <a href="#kontakt" class="btn btn-light btn-lg mt-3">Kontakta oss</a>
+    </div>
+  </section>
+
+  <section id="om-oss" class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h2>Om Vår Tjänst</h2>
+        <p>Vi är ett erfaret team med passion för att skapa användarvänliga och pålitliga tjänster. Vår mission är att hjälpa våra kunder nå sina mål på ett effektivt sätt.</p>
+        <p class="d-none d-sm-block">Sedan starten har vi arbetat med både små företag och stora organisationer. Vår kompetens täcker allt från rådgivning till tekniska lösningar.</p>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
+        <img src="Hjälper" class="img-fluid rounded shadow" alt="Teamwork">
+      </div>
+    </div>
+  </section>
+
+  <section id="tjanster" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Vad vi erbjuder</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded h-100">
+            <h4>Rådgivning</h4>
+            <p>Få experthjälp som passar din situation.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded h-100">
+            <h4>Digitala lösningar</h4>
+            <p>Vi utvecklar hemsidor, appar och system.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="p-4 border rounded h-100">
+            <h4>Support</h4>
+            <p>Snabb och personlig hjälp när du behöver det.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-secondary text-white text-center py-5">
+    <h2>Redo att komma igång?</h2>
+    <p class="mb-4">Kontakta oss idag för en kostnadsfri konsultation.</p>
+    <a href="#kontakt" class="btn btn-outline-light btn-lg">Boka möte</a>
+  </section>
+
+  <section id="kontakt" class="container py-5">
+    <h2 class="text-center mb-4">Kontakta oss</h2>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="namn">Namn</label>
+          <input type="text" class="form-control" id="namn" placeholder="Ditt namn">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">E-post</label>
+          <input type="email" class="form-control" id="email" placeholder="din@email.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="meddelande">Meddelande</label>
+        <textarea class="form-control" id="meddelande" rows="5" placeholder="Vad vill du veta?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Skicka</button>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2025 Vår Tjänst. Alla rättigheter förbehållna.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
